@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderGraphIncludes
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 789fc486258de3e4e9653afb41754902, type: 3}
+    second:
+      variants:
+      - keywords: _BLENDMODE_OFF _DISABLE_DECALS _ENABLE_FOG_ON_TRANSPARENT _REFRACTION_OFF _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+  - first: {fileID: 4800000, guid: fbe94237082c2f44ab3f801b1381d296, type: 3}
+    second:
+      variants:
+      - keywords: _BLENDMODE_OFF _DISABLE_DECALS _ENABLE_FOG_ON_TRANSPARENT _REFRACTION_OFF _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+  - first: {fileID: 4800000, guid: a71bb99321c53b64d82cb9e60f9be4d9, type: 3}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON _DOUBLESIDED_ON _BLENDMODE_OFF _DISABLE_DECALS _ENABLE_FOG_ON_TRANSPARENT _REFRACTION_OFF
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ALPHATEST_ON _DOUBLESIDED_ON _BLENDMODE_OFF _DISABLE_DECALS _ENABLE_FOG_ON_TRANSPARENT _REFRACTION_OFF
+        passType: 8
