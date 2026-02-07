@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1670514732895223
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4490051752313955}
+  - component: {fileID: 114179648092708514}
+  - component: {fileID: 114756831167413292}
+  m_Layer: 0
+  m_Name: MicroHID
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4490051752313955
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670514732895223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114179648092708514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670514732895223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57b56cf48a70e31d6bdee19138f8b60, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ItemTypeId: 16
+  Category: 7
+  TierFlags: 4
+  ThirdpersonModel: {fileID: 114566514460936667, guid: 766555d21c775164cb71db47aca8ddae, type: 2}
+  ViewModel: {fileID: 114965681270647315, guid: aca18531dfc3841428d072e2dc5b820a, type: 2}
+  Icon: {fileID: 2800000, guid: 3084dbe16f8c1904194e4ab359d59544, type: 3}
+  ThrowSettings:
+    RandomTorqueA: {x: 0, y: 0, z: 0}
+    RandomTorqueB: {x: 0, y: 0, z: 0}
+  PickupDropModel: {fileID: 114822383263999778, guid: 30921736174293540a8a1762765bd07f, type: 2}
+  PowerUpClip: {fileID: 8300000, guid: 6a250555d1135b845b9a642fc3d9fd83, type: 3}
+  PowerDownClip: {fileID: 8300000, guid: 04e7dc5f15796684ca96cae29e03c95e, type: 3}
+  PrimedClip: {fileID: 8300000, guid: 0ccc6ee1ed4fc5d49a33f7edf3ff0034, type: 3}
+  FireClip: {fileID: 8300000, guid: 461b98b0779382246a80d0bcec2679c2, type: 3}
+  FireToPrimedClip: {fileID: 8300000, guid: bbaab782ef68e63479778dc840d7b51a, type: 3}
+  FireToPowerDownClip: {fileID: 8300000, guid: 16ade2a276e1b6a429cfde706022d5cc, type: 3}
+  RemainingEnergy: 1
+  UserInput: 0
+  State: 0
+  _energyConsumtionCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.07518998
+      outSlope: 0.07518998
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.09047724
+    - serializedVersion: 3
+      time: 0.20046686
+      value: 0.008362474
+      inSlope: 0.07014576
+      outSlope: 0.07014576
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.46891838
+      value: 0.026530385
+      inSlope: 0.04199791
+      outSlope: 0.04199791
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.32942578
+    - serializedVersion: 3
+      time: 1
+      value: 0.035
+      inSlope: 0.009782599
+      outSlope: 0.009782599
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19166666
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114756831167413292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670514732895223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1f83088134d118b2d6bc75f7c06402, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:

@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1656357474012824
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4413633706533574}
+  - component: {fileID: 114064128912113654}
+  - component: {fileID: 114353787792214439}
+  m_Layer: 0
+  m_Name: Lantern
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4413633706533574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656357474012824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114064128912113654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656357474012824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa93b542a654c152b866f40e39b87ff0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ItemTypeId: 54
+  Category: 0
+  TierFlags: 0
+  ThirdpersonModel: {fileID: 114158739142343556, guid: 4dc07a80a180e4543bc28385c67992b4, type: 2}
+  ViewModel: {fileID: 114949349265000744, guid: 45283b33eabcc9941abc9c21e3f450ca, type: 2}
+  Icon: {fileID: 2800000, guid: 66c734223e2c39e49b84397b913d8db7, type: 3}
+  ThrowSettings:
+    RandomTorqueA: {x: 0, y: 0, z: 0}
+    RandomTorqueB: {x: 0, y: 0, z: 0}
+  PickupDropModel: {fileID: 114926048206392683, guid: 7763009a563190847a9b712eb1225422, type: 2}
+  OnClip: {fileID: 8300000, guid: 03144ef6ca4a261429ba1141d7531725, type: 3}
+  OffClip: {fileID: 8300000, guid: b4164eaae82907746bbb2ee1b3baa08a, type: 3}
+--- !u!114 &114353787792214439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656357474012824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76352a25a35665526934e844d46385c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _roughOutputs: ffffff/f
+  _coarseOutputs: 36000000ffffff/f
+  _oneToOneOutputs: 0f000000
+  _fineOutputs: 0c000000
+  _veryFineOutputs: 1a0000001a0000001a0000001a0000001a0000001a0000001a0000001a0000001a0000002b000000
+  _fireUpgradeTrigger: 0

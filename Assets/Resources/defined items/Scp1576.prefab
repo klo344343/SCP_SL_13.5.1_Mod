@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1692555388922978
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4430003326646139}
+  - component: {fileID: 114269127729167633}
+  - component: {fileID: 114032747804079900}
+  m_Layer: 0
+  m_Name: Scp1576
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4430003326646139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692555388922978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114269127729167633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692555388922978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2581faf2da12c577605ccfc6bd78185d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ItemTypeId: 49
+  Category: 6
+  TierFlags: 4
+  ThirdpersonModel: {fileID: 114329990395374572, guid: c440a87b016446e4aa3477bf1d15c3e2, type: 2}
+  ViewModel: {fileID: 114953627012427879, guid: a7470c44e1a80fa4684c320285a260cb, type: 2}
+  Icon: {fileID: 2800000, guid: f9d7d2651fded2944b687e2ac29c0ef0, type: 3}
+  ThrowSettings:
+    RandomTorqueA: {x: 0, y: 0, z: 0}
+    RandomTorqueB: {x: 0, y: 0, z: 0}
+  PickupDropModel: {fileID: 114198967902171733, guid: 2eb3844d16d38e84e8961e4ffd3f5f4a, type: 2}
+  UseTime: 4
+  MaxCancellableTime: 0
+  _weight: 6
+  UsingSfxClip: {fileID: 8300000, guid: 4aedc187854c2cf4a93f73964b9542ae, type: 3}
+  <PlaybackTemplate>k__BackingField: {fileID: 114636362470013501, guid: 0ccb5467ec585024ea0a871104f6bda8, type: 2}
+  _warningStart: {fileID: 8300000, guid: 80765ebd95281ab4a810fa0ad8230b2c, type: 3}
+  _warningStop: {fileID: 8300000, guid: ce115a76dfe45604780bb4184bf42cf0, type: 3}
+--- !u!114 &114032747804079900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692555388922978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76352a25a35665526934e844d46385c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _roughOutputs: 0c000000
+  _coarseOutputs: 2b000000
+  _oneToOneOutputs: 31000000
+  _fineOutputs: ffffff/f
+  _veryFineOutputs: ffffff/f
+  _fireUpgradeTrigger: 1

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1314680615405467
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4980695172622685}
+  - component: {fileID: 114379692136580985}
+  m_Layer: 0
+  m_Name: Scp330
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4980695172622685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314680615405467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.76675, y: 472.581, z: -122.189926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114379692136580985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314680615405467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc588f93c96b51e41bf42be03bb526c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ItemTypeId: 42
+  Category: 6
+  TierFlags: 2
+  ThirdpersonModel: {fileID: 0}
+  ViewModel: {fileID: 114905676329464259, guid: ec6e27b040bad1c458b424ddb782a9fd, type: 2}
+  Icon: {fileID: 2800000, guid: 53ca7b74e7e78b44d97f3d7c6b5ee876, type: 3}
+  ThrowSettings:
+    RandomTorqueA: {x: 0, y: 0, z: 0}
+    RandomTorqueB: {x: 0, y: 0, z: 0}
+  PickupDropModel: {fileID: 114541070886197787, guid: e09186a55b74e1f40a46b94593d0deca, type: 2}
+  UseTime: 1.5
+  MaxCancellableTime: 0
+  _weight: 0.15
+  UsingSfxClip: {fileID: 8300000, guid: ff9131e873238db4fb8871227dc8a917, type: 3}
+  SelectedCandyId: -1
+  Candies:

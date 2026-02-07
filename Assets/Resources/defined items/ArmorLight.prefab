@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1835094829515506
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4209954427424883}
+  - component: {fileID: 114919061091211237}
+  - component: {fileID: 114718166371889129}
+  m_Layer: 0
+  m_Name: ArmorLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4209954427424883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835094829515506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.76675, y: 472.581, z: -122.189926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114919061091211237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835094829515506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb61313644e79bae12a7cca5683c83, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ItemTypeId: 36
+  Category: 9
+  TierFlags: 1
+  ThirdpersonModel: {fileID: 0}
+  ViewModel: {fileID: 114730887164064611, guid: b45c278b727931e4c9fb7d25bd7727fd, type: 2}
+  Icon: {fileID: 2800000, guid: e01dd0ba9dcbbb04f92b0b6e601659e8, type: 3}
+  ThrowSettings:
+    RandomTorqueA: {x: 0, y: 0, z: 0}
+    RandomTorqueB: {x: 0, y: 0, z: 0}
+  PickupDropModel: {fileID: 114582968666845651, guid: d8f97db9e28d59e4394391a4bb202908, type: 2}
+  HelmetEfficacy: 0
+  VestEfficacy: 55
+  CivilianClassDownsidesMultiplier: 1
+  AmmoLimits:
+  - AmmoType: 29
+    Limit: 30
+  CategoryLimits:
+  - Category: 4
+    Limit: 1
+  _staminaUseMultiplier: 1
+  _movementSpeedMultiplier: 1
+  _weight: 5.2
+--- !u!114 &114718166371889129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835094829515506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76352a25a35665526934e844d46385c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _roughOutputs: ffffff/f0c000000
+  _coarseOutputs: 0f000000
+  _oneToOneOutputs: 24000000
+  _fineOutputs: 25000000
+  _veryFineOutputs: 2500000026000000
+  _fireUpgradeTrigger: 0

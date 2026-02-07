@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1745145208136938
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4366683109867251}
+  - component: {fileID: 114958616940821306}
+  - component: {fileID: 114918651064089638}
+  m_Layer: 0
+  m_Name: ArmorHeavy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4366683109867251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745145208136938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.76675, y: 472.581, z: -122.189926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114958616940821306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745145208136938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdb61313644e79bae12a7cca5683c83, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ItemTypeId: 38
+  Category: 9
+  TierFlags: 1
+  ThirdpersonModel: {fileID: 0}
+  ViewModel: {fileID: 114730887164064611, guid: b45c278b727931e4c9fb7d25bd7727fd, type: 2}
+  Icon: {fileID: 2800000, guid: 99b0ba4dd8cf0324ca8379b4adfaf6a6, type: 3}
+  ThrowSettings:
+    RandomTorqueA: {x: 0, y: 0, z: 0}
+    RandomTorqueB: {x: 0, y: 0, z: 0}
+  PickupDropModel: {fileID: 114201195278030755, guid: 3f26a0ccf2f08cc4c860228259c7d863, type: 2}
+  HelmetEfficacy: 80
+  VestEfficacy: 100
+  CivilianClassDownsidesMultiplier: 1
+  AmmoLimits:
+  - AmmoType: 29
+    Limit: 170
+  - AmmoType: 22
+    Limit: 160
+  - AmmoType: 28
+    Limit: 160
+  - AmmoType: 27
+    Limit: 50
+  - AmmoType: 19
+    Limit: 60
+  CategoryLimits:
+  - Category: 4
+    Limit: 2
+  - Category: 2
+    Limit: 1
+  - Category: 5
+    Limit: 2
+  _staminaUseMultiplier: 1.15
+  _movementSpeedMultiplier: 1
+  _weight: 14.7
+--- !u!114 &114918651064089638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745145208136938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76352a25a35665526934e844d46385c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _roughOutputs: 2500000024000000
+  _coarseOutputs: 25000000
+  _oneToOneOutputs: 26000000
+  _fineOutputs: 23000000
+  _veryFineOutputs: 23000000
+  _fireUpgradeTrigger: 0

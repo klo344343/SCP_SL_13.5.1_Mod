@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1693871737998478
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4553844037252305}
+  - component: {fileID: 114673776354593224}
+  - component: {fileID: 114507765916638710}
+  m_Layer: 0
+  m_Name: Radio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4553844037252305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693871737998478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.76675, y: 472.581, z: -122.189926}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114673776354593224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693871737998478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c164f229bcd127420b25d4e33589fc6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  ItemTypeId: 12
+  Category: 3
+  TierFlags: 0
+  ThirdpersonModel: {fileID: 114713660820651395, guid: b3ed9ec9983fc79449257c9cdf8c5af8, type: 2}
+  ViewModel: {fileID: 114715999185829895, guid: 59d70e455e9b4bb4d826e95f74318c69, type: 2}
+  Icon: {fileID: 2800000, guid: 452ba0da8362ec7488850473b8ced245, type: 3}
+  ThrowSettings:
+    RandomTorqueA: {x: 0, y: 0, z: 0}
+    RandomTorqueB: {x: 0, y: 0, z: 0}
+  PickupDropModel: {fileID: 114704909620236507, guid: 4bf9ce51d8b052645a3d17d771471295, type: 2}
+  Ranges:
+  - ShortName: SR
+    FullName: Short Range
+    SignalTexture: {fileID: 2800000, guid: da0108d4e0ab3b34bacb9b0f7b796c44, type: 3}
+    MinuteCostWhenIdle: 0.25
+    MinuteCostWhenTalking: 1
+    MaximumRange: 500
+  - ShortName: MR
+    FullName: Medium Range
+    SignalTexture: {fileID: 2800000, guid: 3ff5dc77046a39145840819795b1d1e2, type: 3}
+    MinuteCostWhenIdle: 0.25
+    MinuteCostWhenTalking: 1
+    MaximumRange: 1000
+  - ShortName: LR
+    FullName: Long Range
+    SignalTexture: {fileID: 2800000, guid: 1b969a2c3aab6a04b88ea9863c806908, type: 3}
+    MinuteCostWhenIdle: 0.25
+    MinuteCostWhenTalking: 1
+    MaximumRange: 1500
+  - ShortName: UR
+    FullName: Ultra Range
+    SignalTexture: {fileID: 2800000, guid: 4638e54918df9a846973e0580545ed59, type: 3}
+    MinuteCostWhenIdle: 0.25
+    MinuteCostWhenTalking: 1
+    MaximumRange: 3000
+  VoiceVolumeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.011485309
+      outSlope: 0.011485309
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.9974838
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0.017672844
+      outSlope: 0.017672844
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7835593
+      value: 0.48249325
+      inSlope: -3.5109763
+      outSlope: -3.5109763
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.141226
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3605717
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  NoiseLevelCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.06671472
+      inSlope: 0.02404275
+      outSlope: 0.02404275
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.2672756
+    - serializedVersion: 3
+      time: 0.5451417
+      value: 0.11503661
+      inSlope: 0.21193236
+      outSlope: 0.21193236
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.185249
+      outWeight: 0.17600976
+    - serializedVersion: 3
+      time: 0.94249266
+      value: 0.14612728
+      inSlope: 0.0016404528
+      outSlope: 0.0016404528
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16563402
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0.015905688
+      outSlope: 0.015905688
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114507765916638710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693871737998478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76352a25a35665526934e844d46385c8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _roughOutputs: ffffff/f
+  _coarseOutputs: ffffff/f
+  _oneToOneOutputs: 0c000000
+  _fineOutputs: 0c000000
+  _veryFineOutputs: 0f0000000f0000000f00000031000000
+  _fireUpgradeTrigger: 1
