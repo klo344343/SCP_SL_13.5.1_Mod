@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fd6bf29df887c96a5293797ca8d47e, type: 3}
+  m_Name: Impersonation 049
+  m_EditorClassIdentifier:
+  _sounds:
+  - Range: 35
+    Duration: 0.5
+    Repeat: {x: 3, y: 7}
+    Clips:
+    - {fileID: 8300000, guid: 234e401d1df50e24684c61452fc3e419, type: 3}
+    - {fileID: 8300000, guid: 04d33e3237005f3409a67775eb039887, type: 3}
+    - {fileID: 8300000, guid: cc1bad910c2c52640a16e644f7ed2585, type: 3}
+    - {fileID: 8300000, guid: 9987a3a408755524eaad8008f4df0671, type: 3}
+    Channel: 0

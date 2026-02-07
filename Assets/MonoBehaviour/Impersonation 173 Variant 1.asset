@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fd6bf29df887c96a5293797ca8d47e, type: 3}
+  m_Name: Impersonation 173 Variant 1
+  m_EditorClassIdentifier:
+  _sounds:
+  - Range: 60
+    Duration: 0
+    Repeat: {x: 1, y: 1}
+    Clips:
+    - {fileID: 8300000, guid: 884797d6cfeb8c342ad0b1e07acf57e8, type: 3}
+    Channel: 4
+  - Range: 60
+    Duration: 1
+    Repeat: {x: 1, y: 1}
+    Clips:
+    - {fileID: 8300000, guid: c975c1cdc2c391b44af9d0518e22b636, type: 3}
+    Channel: 0

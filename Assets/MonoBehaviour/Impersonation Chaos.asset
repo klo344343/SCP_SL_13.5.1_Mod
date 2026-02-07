@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fd6bf29df887c96a5293797ca8d47e, type: 3}
+  m_Name: Impersonation Chaos
+  m_EditorClassIdentifier:
+  _sounds:
+  - Range: 30
+    Duration: 0.5
+    Repeat: {x: 3, y: 7}
+    Clips:
+    - {fileID: 8300000, guid: cfa073025463b504a9bcfa6a18f2ed06, type: 3}
+    - {fileID: 8300000, guid: 3be78a80e2795664e9c94918deaecbee, type: 3}
+    - {fileID: 8300000, guid: 6cef5d325b9d58d40a53dc573193adea, type: 3}
+    - {fileID: 8300000, guid: b30b8f1e08187b5499961a6fa39d5063, type: 3}
+    - {fileID: 8300000, guid: da183d0b684e5804683facb5d8ee97f1, type: 3}
+    - {fileID: 8300000, guid: 63797f47d645b7643b3f7bb880cb3c2c, type: 3}
+    - {fileID: 8300000, guid: 25f2560c168b45740899863558fed364, type: 3}
+    - {fileID: 8300000, guid: a79d6444dab57ac40a43fec061631760, type: 3}
+    Channel: 0

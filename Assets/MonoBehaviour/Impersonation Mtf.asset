@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fd6bf29df887c96a5293797ca8d47e, type: 3}
+  m_Name: Impersonation Mtf
+  m_EditorClassIdentifier:
+  _sounds:
+  - Range: 12
+    Duration: 0.5
+    Repeat: {x: 3, y: 7}
+    Clips:
+    - {fileID: 8300000, guid: 9e586665af9f07a409c6b8635db066c4, type: 3}
+    - {fileID: 8300000, guid: 5fb8ecde2e0ec554faf0679b78c97ead, type: 3}
+    - {fileID: 8300000, guid: db21d24557e87d447b03722861bc6899, type: 3}
+    - {fileID: 8300000, guid: 1d0605272cd0a804e97ebc2c240649bc, type: 3}
+    - {fileID: 8300000, guid: 8ea764bf93307eb4c94d8e7657bade90, type: 3}
+    - {fileID: 8300000, guid: 56b661fa41c18944db916281f59041f8, type: 3}
+    - {fileID: 8300000, guid: bc88e18a94c429a40ab9cce4c3d64a3a, type: 3}
+    - {fileID: 8300000, guid: a08ada1a04e4b694bbf9ae772f7b77fe, type: 3}
+    Channel: 0
