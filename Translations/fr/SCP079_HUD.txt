@@ -1,0 +1,91 @@
+ZOOM x[amount]
+NIVEAU D'ACCÈS [tier]
+EXP [current] / [next]
+NIVEAU MAX ATTEINT
+AUCUNE CAMÉRA
+ALLER À : [camera] ([cost])
+PAS ASSEZ DE PUISSANCE AUXILIAIRE
+TEMPS ESTIMÉ : [time] secondes
+NIVEAU SUPÉRIEUR REQUIS
+CAMÉRA INVALIDE
+ACCÈS À LA PORTE REFUSÉ
+OUVRIR LA PORTE ([cost])
+FERMER LA PORTE ([cost])
+VERROUILLER LA PORTE ([cost])
+DÉVERROUILLER LA PORTE
+COOLDOWN BLOCAGE DE LA PORTE
+PUISSANCE AUXILIAIRE
+VOUS ÊTES ATTAQUÉ !
+DÉVERROUILLAGE DE TOUTES LES PORTES ([num] au total)
+OUVRIR LA CARTE DE LA FONDATION
+FERMER
+ZONE DE CONFINEMENT LÉGER
+ZONE DE CONFINEMENT LOURD
+ZONE D'ENTRÉE
+ZONE EXTÉRIEURE
+BLACKOUT ([cost])
+BLACKOUT INDISPONIBLE POUR CETTE SALLE
+LIMITE DE BLACKOUTS SIMULTANÉS ATTEINTE
+COOLDOWN BLACKOUT DE LA SALLE
+ENVOYER ASCENSEUR ([cost])
+CONFINEMENT ([cost])
+COOLDOWN DU CONFINEMENT
+AUCUNE PORTE DISPONIBLE POUR LE CONFINEMENT
+PING L'EMPLACEMENT ([cost])
+LIMITE DE TAUX DE PING ATTEINTE
+ÉCHEC DU DÉPLACEMENT DE CAMÉRA
+SIGNAL PERDU
+RECONNEXION (TEMPS ESTIMÉ : [time]s)
+ACTIVER LA PORTE TESLA ([cost])
+COOLDOWN D'ACTIVATION DE LA PORTE TESLA
+$Niveau d'accès [tier]$ - DÉBLOQUÉ
+$PUISSANCE AUXILIAIRE$ : capacité portée à $[limit]$.
+$BLACKOUT$ : maintenant disponible - appuyez sur $[key]$ pour désactiver l'éclairage de la pièce.
+$BLACKOUT$ : capacité portée à $[number]$ salles.
+$CONFINEMENT$ : maintenant disponible - appuyez sur $[key]$ pour verrouiller temporairement toutes les portes d'une pièce.
++[amount] EXP - Commande d'administration
++[amount] EXP - Aide à la terminaison de [role]
++[amount] EXP - Terminaison directe de [role]
++[amount] EXP - Témoin d'une terminaison par un coéquipier
++[amount] EXP - Aide à la poursuite d'un coéquipier
++[amount] EXP - Protection de coéquipier(s)
++[amount] EXP - Empêchement de l'utilisation de la Micro H.I.D.
+FLUX DE CAMÉRA EN LIGNE
+BLACKOUT DE TOUTE LA ZONE ([cost])
+$BLACKOUT DE ZONE$ désormais disponible - à côté des noms de zone sur la $Carte de la Fondation$.
+COOLDOWN DU BLACKOUT DE ZONE
+BLACKOUT DÉJÀ ACTIF
+BLACKOUT NON DISPONIBLE POUR CETTE ZONE
+FORMES DE VIE TOTALES
+CIBLES
+SUJETS SCP
+CIVIL
+MILITAIRE
+UTILISER LE HAUT-PARLEUR
+ACCÈS AUX ASCENSEURS REFUSÉ
+SCP-079 n'a pas de capacité de combat ni de mouvement. À la place, vous pouvez observer l'environnement avec les caméras situées dans chacune des salles. Toutes les capacités disponibles sont répertoriées dans le coin supérieur droit de votre HUD.
+Pratiquement indestructible : Il y a trois générateurs dans la zone de confinement lourd. Si tous sont activés, vous pouvez être reconfiné depuis votre chambre. Les générateurs ont une séquence de compte à rebours qui peut être interrompue en appuyant sur le bouton "ANNULER" sur le générateur.
+Accès Illimité:Vous pouvez manipuler de nombreux systèmes dans la Fondation pour aider les autres SCP. Le coin supérieur droit de votre écran affiche les capacités disponibles. Ces capacités coûtent de la Puissance Auxiliaire (PA), qui se régénère avec le temps.
+Deep Learning:Contribuer aux terminaisons ou effectuer des actions utiles pour les autres SCP vous donnera de l'expérience vers un nouveau niveau d'accès. Chaque nouveau niveau fournit plus de PA et vous accorde de nouvelles capacités.
+Surveillance:Être partout et nulle part vous offre une perspective unique. Vous pouvez signaler des emplacements, des personnes et des objets d'intérêt, ce qui vous permet de participer au massacre.
+$SCANNER DE BRÈCHE$ désormais disponible - sélectionnez une ou des classes / zones sur la $carte de la Fondation$ pour scanner périodiquement à la recherche de survivants.
+RÉGÉNÉRATION DE LA PUISSANCE AUXILIAIRE SUSPENDUE
+RÉGÉNÉRATION DE LA PUISSANCE AUXILIAIRE RÉDUITE ([precentage])
+Verrouillage de porte actif
+Utilisation du haut-parleur
+Confinement en cours
+SCANNER DE BRÈCHE
+RETOURNER SUR LA CARTE
+Scanner de brèche - [cnt] zone(s)
+ZONES SÉLECTIONNÉES : [cnt]
+SÉLECTIONNEZ LES ZONES À ANALYSER
+Résultat de l'analyse : $Aucune cible fixe détectée$.
+Nouvel essai dans [time] secondes...
+Résultat de l'analyse : [role] détecté à '$[camera_name]$' ([zone]).
+PROCHAINE ANALYSE : [time] s
+Analyse en cours...
+SÉQUENCE D'ANALYSE SUSPENDUE
+SÉLECTIONNER LES ÉQUIPES À DÉTECTER
+Le scanner de brèche détecte les cibles restantes qui restent dans la même zone pendant une période prolongée.
+Sélectionnez au moins un filtre pour continuer !
+$VERROUILLAGE DE PORTE$ désormais disponible - appuyez sur $[key]$ sur une porte spécifique pour la verrouiller temporairement.
